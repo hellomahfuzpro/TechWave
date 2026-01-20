@@ -41,9 +41,9 @@
             <div class="menu-container hidden sm:block">
                 <nav class="main-menu">
                     <ul class="flex flex-row text-base items-center gap-5 text-body-text font-medium">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Episodes</a></li>
-                        <li><a href="#">Host</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#episode">Episodes</a></li>
+                        <li><a href="#host">Host</a></li>
                     </ul>
                 </nav>
             </div>
@@ -80,7 +80,7 @@
     </section>
 
 
-    <section class="about-section bg-navy-blue py-20">
+    <section class="about-section bg-navy-blue py-20" id="about">
         <div class="container max-w-300 m-auto flex-col gap-7 flex">
             <div class="about-top flex max-w-200 m-auto flex-col gap-4 justify-center items-center text-center pb-20">
                 <h2 class="title text-white text-3xl sm:text-4xl font-bold">About the Podcast</h2>
@@ -148,12 +148,12 @@
     </section>
 
 
-    <section class="featured-section bg-navy-blue py-20">
+    <section class="featured-section bg-navy-blue py-20" id="episode">
         <div class="container max-w-300 m-auto flex flex-col gap-7">
             <div class="featured-top">
                 <h2 class="title text-white text-3xl sm:text-4xl font-bold text-center pb-7">Featured Episodes</h2>
 
-                <div class="episode-container flex flex-col sm:grid grid-cols-3 gap-7">
+                <div class="episode-container flex flex-col sm:grid grid-cols-3 gap-10">
                     <div class="episode-box bg-purple rounded-[15px]">
                         <div class="play-icon h-50 bg-cover bg-center bg-no-repeat leading-50 text-center"  style="background-image: url(assets/images/img1.png);"><a href="#"><i class="fas fa-play w-13 h-13 bg-grad rounded-full text-center  leading-13! text-white"></i></a></div>
                         <div class="episode-title  text-xl/7 font-bold text-white pt-5 pb-3 px-5"><a href="#"></a>The Future of AI in Everyday Life</div>
@@ -177,7 +177,7 @@
                 </div>
             </div>
 
-            <div class="featured-bottom mt-20">
+            <div class="featured-bottom mt-20" id="host">
                 <h2 class="title text-white text-3xl sm:text-4xl font-bold pb-5 text-center">Meet the Host</h2>
 
                 <div class="host-container flex flex-col sm:flex-row gap-7 bg-purple p-7 rounded-[20px] items-center">
